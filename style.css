@@ -1,0 +1,223 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;  
+    font-family: 'Baloo Da 2', cursive; 
+    background-image:url("bd2.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px; 
+    position:relative ;
+}
+/*----------------
+Header Start
+------------------*/
+header{
+   background-image:url("mango.jpg");
+   opacity: .5;
+  
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border: 0px solid white;
+    border-radius: 100px;
+}
+.left_header h1{
+    color: yellow;
+    text-shadow: 2px 2px 5px blue;
+}
+h3{
+    color: white;
+    margin-top: 2px auto;
+}
+/*----------------
+    Header End
+------------------*/
+/*----------------
+----navbar Start---
+------------------*/
+
+#menu{
+list-style-type: none;
+margin: 0;padding: 0;
+width: 960px;
+min-height: 50px;
+background-color: limegreen;
+box-shadow: 10px 20px 30px #3f2e02;
+float: left;
+
+}
+#menu li{
+float: left;
+border-right: 2px solid royalblue;
+display: block;
+position: relative;
+
+
+}
+#menu li:last-child{
+border-right: none;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: indigo;
+    padding: 12px 22px;
+    background-color: limegreen;
+    display: block;
+
+}
+#menu li a:hover{
+    background: brown;
+    color: chartreuse;
+}
+#menu li ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    min-width: 100%;
+    left: -9999px;
+
+}
+#menu li ul li{
+    float: none;
+    border-right: none;
+}
+##menu li:hover ul{
+    left: 0px;
+}
+
+/*----------------
+----navbar End---
+------------------*/
+
+/*----------------
+----News Start---
+------------------*/
+.news{
+    width: 960px;
+    background-color: magenta;
+}
+.pic-profile img{
+    width: 960px;
+    height: 250px;
+}
+/*----------------
+----News End---
+------------------*/
+
+/*------------------------
+Head of the Body Start
+--------------------------*/
+#left-boxed{
+    border: 2px solid red;
+    width: 850px;
+    margin: 0px;
+    padding: 0;
+    height: 673px;
+    float: left;
+}
+.left-hob{
+    max-width: 850px;
+    padding: 0;
+    float: left;
+    text-align: justify;
+    font: bold ;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.hr-common{
+    border: solid gray 2px;
+    border-bottom: none;
+    margin: 0px auto;
+    width: 100%;
+  .clear-div{
+      clear: both;
+  }
+}
+#right-boxed{
+    max-width: 160px;
+    background-color: rgb(248, 140, 63);
+    float: right;
+    border: 2px solid red;
+    height: 1050px;
+}
+.right-hob{
+    background-color: blueviolet;
+    font-size: 10px;
+}
+.hr-common{
+    color:  2px solid orange;
+    clear: both;
+ 
+}
+.p-msg{
+    float: left;
+    width: 500px;
+    border: 2px solid greenyellow;
+    text-align: justify;
+}
+.p-msg h1{
+    border: 2px solid #3f2e02;
+    width: 490px;
+    height: 40px;
+    background-color: cornflowerblue;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.p-msg2{
+    float: right;
+    width: 350px;
+}
+.p-msg2 h2{
+    border: 1px solid greenyellow;
+    width: 332px;
+    height: 40px;
+    background-color: indianred;
+}
+    
+table, tr, td, th{
+    border: 2px solid brown;
+}
+table{
+    border-collapse: collapse;
+    width: 95%;
+}
+th{
+    height: 50px;
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+
+/*------------------------
+Head of the Body End
+--------------------------*/
+/*------------------------
+------Footer Start----
+--------------------------*/
+.b-section{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 10px;
+}
+.b-section a{
+    color: darkgrey;
+    text-decoration: none;
+    margin-top: 20px;
+}
+/*------------------------
+------Footer End----
+--------------------------*/
